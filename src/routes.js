@@ -1,7 +1,7 @@
 const express = require('express');
 const routes = express.Router();
 
-const Veiculo = require('./controllers/veiculo');
+const Veiculo = require('./controllers/veiculos');
 const Estadia = require('./controllers/estadia');
 
 routes.get('/', (req, res) => {
